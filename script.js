@@ -33,7 +33,7 @@ let lightColor = (element, number) => {
     setTimeout(() => {
         element.classList.remove('selected');
     }, 300);
-}, number - 600);
+}, number - 550);
 }
 
 //checa se os botões clicados são os mesmos dp prde, gerada no jogo
@@ -58,7 +58,7 @@ let click = (color) => {
     setTimeout(() => {
         createColorElement(color).classList.remove('selected');
         checkOrder();
-    },250);
+    }, 250);
 }
 
 //função que retorna a cor
