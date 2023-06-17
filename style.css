@@ -50,3 +50,19 @@ body {
 .selected {
     opacity: 0.4;
 }
+
+@media (max-width: 981px) {
+    .main-game {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .genius {
+        display: grid;
+        width: 300px;
+        height: 300px;
+    }
+}
