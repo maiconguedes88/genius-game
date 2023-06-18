@@ -67,6 +67,34 @@ body {
     border-bottom: 5px solid #6a6a6a;
 }
 
+.button {
+        width: 100%;
+        max-width: 100px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1%;
+}
+
+.botao {
+    text-align: center;
+    background-color: #292a2c;
+    color: #cbcbcb;
+    border-radius: 5px;
+    border: 2px solid #6a6a6a;
+    font-family: 'russo one';
+    font-size: 15pt;
+    width: 100px;
+    height: 30px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #ccff00;
+    transition: .7s;
+    color: rgb(40, 40, 40);
+    font-weight: bold;
+}
+
 
 
 /* RESPONSIVIDADE */
@@ -88,5 +116,20 @@ body {
 
     .logo {
         font-size: 25pt;
+    }
+
+    .botao {
+        border: 2px solid #6a6a6a;
+        font-size: 8pt;
+        width: 60px;
+        height: 20px;
+    }
+
+    .botao:hover {
+        cursor: pointer;
+        background-color: #ccff00;
+        transition: .7s;
+        color: rgb(40, 40, 40);
+        font-weight: bold;
     }
 }
