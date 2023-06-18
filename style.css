@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body {
     margin: 0;
     background-color: #292a2c;
 }
 
 .main-game {
-    height: 100vh;
-    width: 100vw;
+    padding: 5%;
+    width: 100;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,8 +21,8 @@ body {
     border: 1px solid #292a2c;
     background-color: #292a2c;
     border-radius: 100%;
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
 }
 
 .blue {
@@ -50,6 +52,24 @@ body {
 .selected {
     opacity: 0.4;
 }
+
+/* LOGOTIPO */
+
+.logo {
+    display: grid;
+    justify-content: center;
+    font-size: 45pt;
+    color: #e2e2e2;
+    font-family: 'russo one';
+    margin-top: 10px;
+    text-shadow:  1px 7px 30px rgb(92, 81, 81);
+    border-top: 5px solid #6a6a6a;
+    border-bottom: 5px solid #6a6a6a;
+}
+
+
+
+/* RESPONSIVIDADE */
 
 @media (max-width: 600px) {
     .main-game {
